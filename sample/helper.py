@@ -1,3 +1,4 @@
-def get_answer():
+def should_speak():
     """Get an answer."""
+
     return True

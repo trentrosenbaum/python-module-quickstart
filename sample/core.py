@@ -1,12 +1,14 @@
-# -*- coding: utf-8 -*-
-from . import helpers
+from . import helper
 
-def get_hmm():
+
+def get_message():
     """Get a thought."""
-    return 'hmmm...'
+
+    return 'hello world!!!'
 
 
-def hmm():
+def say_hello():
     """Contemplation..."""
-    if helpers.get_answer():
-        print(get_hmm())
+
+    if helper.should_speak():
+        print(get_message())
